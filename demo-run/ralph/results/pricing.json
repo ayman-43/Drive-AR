@@ -1,0 +1,90 @@
+{
+  "subtask": "pricing",
+  "generated_at": "2026-09-30T00:00:00Z",
+  "facts": [
+    {
+      "id": "pricing-1",
+      "claim": "GitHub Copilot offers a free individual plan ($0/month) with limited chat and agent usage.",
+      "source_name": "GitHub (official Copilot plans page)",
+      "source_url": "https://github.com/features/copilot/plans",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-2",
+      "claim": "GitHub Copilot Pro costs $10/month for individuals and includes $15/month worth of GitHub AI Credits.",
+      "source_name": "GitHub (official Copilot plans page)",
+      "source_url": "https://github.com/features/copilot/plans",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-3",
+      "claim": "GitHub Copilot Pro+ costs $39/month for individuals and includes $70/month worth of GitHub AI Credits.",
+      "source_name": "GitHub (official Copilot plans page)",
+      "source_url": "https://github.com/features/copilot/plans",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-4",
+      "claim": "GitHub Copilot Max costs $100/month for individuals and includes $200/month worth of GitHub AI Credits.",
+      "source_name": "GitHub (official Copilot plans page)",
+      "source_url": "https://github.com/features/copilot/plans",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-5",
+      "claim": "GitHub Copilot Business and Copilot Enterprise are organization-level plans that include per-user GitHub AI Credits allowances, billed at 1 AI credit = $0.01 USD once included allowances are exceeded.",
+      "source_name": "GitHub Docs (Models and pricing for GitHub Copilot)",
+      "source_url": "https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-6",
+      "claim": "Cursor offers a free 'Hobby' plan requiring no credit card, providing limited Agent requests and access to Composer.",
+      "source_name": "Cursor (official pricing page)",
+      "source_url": "https://cursor.com/pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-7",
+      "claim": "Cursor's individual paid plans start at $20/month, with Pro+, and Ultra tiers offering extended usage limits, frontier model access, and other features on top of the base Pro tier.",
+      "source_name": "Cursor (official pricing page)",
+      "source_url": "https://cursor.com/pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-8",
+      "claim": "Cursor's Teams plan is priced at $40 per user per month and adds centralized team billing/administration, team marketplace, cloud agents with shared context, agentic code reviews, usage analytics, team-wide privacy mode, and SAML/OIDC SSO.",
+      "source_name": "Cursor (official pricing page)",
+      "source_url": "https://cursor.com/pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-9",
+      "claim": "Cursor's Enterprise plan uses custom pricing and includes everything in Teams plus pooled usage, invoice/PO billing, SCIM seat management, repository and model access controls, audit logs, an AI code tracking API, and priority support.",
+      "source_name": "Cursor (official pricing page)",
+      "source_url": "https://cursor.com/pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-10",
+      "claim": "Claude Code is included in Anthropic's Claude Pro plan, which costs $20/month billed monthly or $17/month ($200 billed up front) with an annual subscription.",
+      "source_name": "Anthropic (official Claude pricing page)",
+      "source_url": "https://claude.com/pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-11",
+      "claim": "Claude Code is included in Anthropic's Claude Max plan, which starts from $100/month and offers two usage tiers (5x and 20x the Pro usage).",
+      "source_name": "Anthropic (official Claude pricing page)",
+      "source_url": "https://claude.com/pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "pricing-12",
+      "claim": "Anthropic's Claude Team plan has two seat tiers, both of which include Claude Code: Team Standard at $20/seat/month billed annually ($25/seat/month billed monthly), and Team Premium at $100/seat/month billed annually ($125/seat/month billed monthly).",
+      "source_name": "Anthropic (official Claude pricing page)",
+      "source_url": "https://claude.com/pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    }
+  ]
+}

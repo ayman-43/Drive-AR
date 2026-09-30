@@ -1,0 +1,62 @@
+{
+  "subtask": "features",
+  "generated_at": "2026-09-30T07:19:21Z",
+  "facts": [
+    {
+      "id": "features-1",
+      "claim": "Claude Code is an agentic coding tool that reads a user's codebase, edits files, runs commands, and integrates with development tools, and it runs on multiple surfaces: the terminal (CLI), IDE extensions (VS Code, JetBrains), a desktop app, and the web (claude.ai/code).",
+      "source_name": "Anthropic - Claude Code Docs (Overview)",
+      "source_url": "https://code.claude.com/docs/en/overview",
+      "retrieved": "2026-09-30T07:19:21Z"
+    },
+    {
+      "id": "features-2",
+      "claim": "Claude Code supports spawning multiple Claude Code agents that work on different parts of a task simultaneously, with a lead agent coordinating the work, assigning subtasks, and merging results (sub-agents / background agents).",
+      "source_name": "Anthropic - Claude Code Docs (Overview)",
+      "source_url": "https://code.claude.com/docs/en/overview",
+      "retrieved": "2026-09-30T07:19:21Z"
+    },
+    {
+      "id": "features-3",
+      "claim": "Claude Code connects to external tools and data sources (e.g. Google Drive, Jira, Slack, custom tooling) via the Model Context Protocol (MCP), an open standard, and reads a CLAUDE.md file in the project root at the start of every session for persistent instructions and context.",
+      "source_name": "Anthropic - Claude Code Docs (Overview)",
+      "source_url": "https://code.claude.com/docs/en/overview",
+      "retrieved": "2026-09-30T07:19:21Z"
+    },
+    {
+      "id": "features-4",
+      "claim": "Cursor's Agent mode lets AI agents work autonomously using their 'own computers' to build, test, and demo features end-to-end for the developer to review, and agents can work in parallel on tasks for hours or days.",
+      "source_name": "Cursor (cursor.com)",
+      "source_url": "https://cursor.com/",
+      "retrieved": "2026-09-30T07:19:21Z"
+    },
+    {
+      "id": "features-5",
+      "claim": "Cursor is offered across multiple surfaces beyond its desktop IDE, including a command-line interface (CLI) installable via a shell script, a Slack integration, and GitHub pull-request review capabilities.",
+      "source_name": "Cursor (cursor.com)",
+      "source_url": "https://cursor.com/",
+      "retrieved": "2026-09-30T07:19:21Z"
+    },
+    {
+      "id": "features-6",
+      "claim": "GitHub Copilot's agent mode in VS Code is described as an 'autonomous peer programmer' that performs multi-step coding tasks by analyzing the codebase, reading relevant files, proposing edits across files, and running terminal commands and tests, then responds to compile and lint errors and auto-corrects in a loop until the task is completed.",
+      "source_name": "Visual Studio Code Blog (Microsoft) - \"Introducing GitHub Copilot agent mode\"",
+      "source_url": "https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode",
+      "retrieved": "2026-09-30T07:19:21Z"
+    },
+    {
+      "id": "features-7",
+      "claim": "GitHub Copilot's cloud coding agent can be assigned a GitHub issue, after which it researches the repository, creates an implementation plan, and makes code changes in its own ephemeral development environment powered by GitHub Actions (where it can run tests and linters), then opens a pull request; it is limited to making changes within the single repository specified for the task.",
+      "source_name": "GitHub Docs - About GitHub Copilot coding agent",
+      "source_url": "https://docs.github.com/copilot/concepts/agents/coding-agent/about-coding-agent",
+      "retrieved": "2026-09-30T07:19:21Z"
+    },
+    {
+      "id": "features-8",
+      "claim": "GitHub Copilot is available as an extension across Visual Studio Code, Visual Studio, Vim, Neovim, the JetBrains suite of IDEs, and Azure Data Studio, with additional integrations such as Eclipse, Raycast, GitHub.com, and GitHub Mobile; chat functionality is currently limited to Visual Studio Code, JetBrains, and Visual Studio.",
+      "source_name": "GitHub - GitHub Copilot product page",
+      "source_url": "https://github.com/features/copilot",
+      "retrieved": "2026-09-30T07:19:21Z"
+    }
+  ]
+}

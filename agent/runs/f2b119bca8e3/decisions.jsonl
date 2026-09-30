@@ -1,0 +1,2 @@
+{"ts": 1790756796.7442455, "who": "master", "text": "kickoff: \"test\""}
+{"ts": 1790756797.142529, "who": "master", "text": "RUN FAILED: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""}

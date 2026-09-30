@@ -1,0 +1,62 @@
+{
+  "subtask": "tradeoffs",
+  "generated_at": "2026-09-30T00:00:00Z",
+  "facts": [
+    {
+      "id": "tradeoffs-1",
+      "claim": "GitHub Copilot Business costs $19/user/month (including $19 in monthly AI Credits) and, starting June 1, 2026, GitHub is moving all Copilot plans from premium-request-based billing to usage-based billing where credits are consumed per token; 'fallback experiences will no longer be available' once credits run out, so admins must manage budgets via admin controls.",
+      "source_name": "The GitHub Blog",
+      "source_url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "tradeoffs-2",
+      "claim": "Under GitHub Copilot's legacy request-based billing, Copilot Pro ($10/month) includes 300 premium requests per month and Copilot Pro+ ($39/month) includes 1,500 premium requests per month.",
+      "source_name": "GitHub Docs",
+      "source_url": "https://docs.github.com/en/copilot/reference/copilot-billing/request-based-billing-legacy/copilot-requests",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "tradeoffs-3",
+      "claim": "Copilot code review carries a model multiplier of 13, meaning each time Copilot reviews a pull request or reviews code in the IDE, it consumes 13 units of a user's monthly premium-request quota at once.",
+      "source_name": "GitHub Docs",
+      "source_url": "https://docs.github.com/en/copilot/reference/copilot-billing/request-based-billing-legacy/model-multipliers-for-annual-plans",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "tradeoffs-4",
+      "claim": "Cursor's Teams plan costs $40 per user per month and adds, on top of Pro features, centralized billing, a team marketplace for shared rules/skills, agentic code reviews, usage analytics, team-wide privacy mode, and SAML/OIDC SSO -- collaboration features not present in Cursor's individual Pro tier.",
+      "source_name": "eesel AI blog",
+      "source_url": "https://www.eesel.ai/blog/cursor-pricing",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "tradeoffs-5",
+      "claim": "In June 2026 Cursor introduced a Teams 'Premium seat' priced at $120/seat/month ($96/month billed annually) that provides 5x the usage capacity of a Standard seat for 3x the cost, aimed at heavy agent users who would otherwise hit usage limits and trigger on-demand overage charges.",
+      "source_name": "Finout blog",
+      "source_url": "https://www.finout.io/blog/what-happened-to-cursor-pricing-2026-guide-5-cost-cutting-tips",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "tradeoffs-6",
+      "claim": "In mid-2025 Cursor users reported unexpected/surprise charges tied to unclear communication about what 'unlimited usage' meant, and Cursor responded by offering refunds for surprise usage billed between June 16 and July 4, 2025.",
+      "source_name": "Finout blog",
+      "source_url": "https://www.finout.io/blog/what-happened-to-cursor-pricing-2026-guide-5-cost-cutting-tips",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "tradeoffs-7",
+      "claim": "As of the filing of GitHub issue #60082 on the anthropics/claude-code repository, there is no way for two different Anthropic user accounts to share and collaborate on a single Claude Code session in real time (comparable to Google Docs or VS Code Live Share); claude.ai share links are read-only, and existing 'teammate'/peer session features only extend a single account across devices, not across different users -- current workarounds are screen sharing or unsupported tmux session sharing.",
+      "source_name": "GitHub (anthropics/claude-code issue tracker)",
+      "source_url": "https://github.com/anthropics/claude-code/issues/60082",
+      "retrieved": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "tradeoffs-8",
+      "claim": "In a Hacker News discussion of a user's two-week experience with Claude Code, multiple commenters described its terminal-only interface as a steep learning curve compared to IDE-based tools, citing the lack of visual diffs and preference for tools like Cursor, and separately noted that reviewing Claude Code's generated changes afterward can take considerable time, especially in large existing codebases versus greenfield projects.",
+      "source_name": "Hacker News (news.ycombinator.com)",
+      "source_url": "https://news.ycombinator.com/item?id=44596472",
+      "retrieved": "2026-09-30T00:00:00Z"
+    }
+  ]
+}

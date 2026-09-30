@@ -1,0 +1,64 @@
+INFO:     Started server process [24056]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8899 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57092 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50868 - "POST /api/run HTTP/1.1" 200 OK
+Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<run_pipeline() done, defined at C:\Users\ayman\writing-driven-autoresearch\agent\orchestrator.py:41> exception=TypeError('"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"')>
+Traceback (most recent call last):
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\orchestrator.py", line 46, in run_pipeline
+    subtasks = await decompose(question)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\orchestrator.py", line 28, in decompose
+    message = await client.messages.create(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\resources\messages\messages.py", line 2113, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_base_client.py", line 1898, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_base_client.py", line 1619, in request
+    request = self._build_request(options, retries_taken=retries_taken)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_base_client.py", line 506, in _build_request
+    headers = self._build_headers(options, retries_taken=retries_taken)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_base_client.py", line 447, in _build_headers
+    self._validate_headers(headers_dict, custom_headers)
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_client.py", line 436, in _validate_headers
+    raise TypeError(
+TypeError: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+INFO:     127.0.0.1:57045 - "POST /api/run HTTP/1.1" 200 OK
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<run_pipeline() done, defined at C:\Users\ayman\writing-driven-autoresearch\agent\orchestrator.py:41> exception=TypeError('"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"')>
+Traceback (most recent call last):
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\orchestrator.py", line 46, in run_pipeline
+    subtasks = await decompose(question)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\orchestrator.py", line 28, in decompose
+    message = await client.messages.create(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\resources\messages\messages.py", line 2113, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_base_client.py", line 1898, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_base_client.py", line 1619, in request
+    request = self._build_request(options, retries_taken=retries_taken)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_base_client.py", line 506, in _build_request
+    headers = self._build_headers(options, retries_taken=retries_taken)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_base_client.py", line 447, in _build_headers
+    self._validate_headers(headers_dict, custom_headers)
+  File "C:\Users\ayman\writing-driven-autoresearch\agent\.venv\Lib\site-packages\anthropic\_client.py", line 436, in _validate_headers
+    raise TypeError(
+TypeError: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+INFO:     127.0.0.1:63874 - "GET /api/run//status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63875 - "GET /api/run//decisions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60641 - "GET /api/run/44bfe76847a9/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60642 - "GET /api/run/44bfe76847a9/decisions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51412 - "GET /api/health HTTP/1.1" 200 OK

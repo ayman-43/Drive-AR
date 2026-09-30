@@ -1,0 +1,7 @@
+{
+  "run_id": "f2b119bca8e3",
+  "question": "test",
+  "phase": "failed",
+  "created_at": 1790756796.741239,
+  "error": "\"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+}

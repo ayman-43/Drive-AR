@@ -13,8 +13,11 @@ matching its source is indistinguishable from a fabricated one.
 """
 import json, re, sys, pathlib
 
-R = pathlib.Path.home() / "ralph" / "results"
-W = pathlib.Path.home() / "writing"
+BASE_DIR = pathlib.Path(__file__).parent
+R = BASE_DIR / "ralph" / "results"
+if not R.exists():
+    R = BASE_DIR / "ralph"
+W = BASE_DIR / "writing"
 load = lambda n: json.load(open(R / n))
 
 probe = load("r2probe_0.5b.json")["runs"]
